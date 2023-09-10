@@ -1,0 +1,57 @@
+/* Reset some default styles for better cross-browser consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply the gradient background */
+body {
+    background: linear-gradient(to bottom right, #007bff, #ff0000);
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Updated CSS for the buttons with a subtle 3D effect */
+.button {
+    display: inline-block;
+    background: linear-gradient(to bottom right, #007bff, #ff0000);
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow transition */
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow */
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to bottom right, #0050a1, #cc0000);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Increase box-shadow on hover for a more pronounced 3D effect */
+}
+
+
+
+/* Style the <p> element in the main section */
+main p {
+    font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
